@@ -1,0 +1,19 @@
+.about-us {
+  background-image: var(--gradient-background);
+  margin-top: 40px;
+  padding: 30px 20px 60px 20px;
+}
+.about-us__title {
+  color: white;
+  margin: 20px;
+}
+.about-us__text {
+  color: white;
+  margin: 20px;
+}
+.about-us__video {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

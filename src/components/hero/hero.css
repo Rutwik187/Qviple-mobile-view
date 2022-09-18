@@ -1,0 +1,40 @@
+.hero {
+  background-image: var(--gradient-background);
+  height: 100%;
+  padding: 50px 0px;
+}
+
+.hero_box_border {
+  width: 80%;
+  margin: auto;
+  border: 15px solid var(--primary-color);
+}
+
+.hero_box {
+  margin: 15px 15px 15px -30px;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: white;
+}
+
+.hero_title {
+  color: var(--primary-color);
+  text-align: start;
+}
+
+.hero_text {
+  color: var(--text-color);
+  text-align: start;
+}
+.hero__download__text {
+  text-align: start;
+}
+
+.hero_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}

@@ -1,0 +1,44 @@
+.download-app {
+  margin-top: 150px;
+}
+
+.download-playStore {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.download-app__features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: wrap;
+}
+.download-app__box {
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.download-app__text {
+  color: white;
+  margin-top: 5px;
+}
+
+.download_count {
+  color: white;
+  margin-top: 10px;
+}
+
+.download-app__screens {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

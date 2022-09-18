@@ -1,0 +1,16 @@
+.testimonials {
+  background-image: var(--gradient-background);
+  margin: 20px 0px;
+  padding: 40px 0px;
+}
+.testimonial-box {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 20px 20px 50px 20px;
+  padding: 30px;
+  object-fit: cover;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+}
