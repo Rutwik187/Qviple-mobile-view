@@ -6,7 +6,7 @@
 .testimonial-box {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 80%;
   margin: 20px 20px 50px 20px;
   padding: 30px;
   object-fit: cover;

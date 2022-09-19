@@ -1,0 +1,45 @@
+.timeline {
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Outer Layer with the timeline border */
+.steps__outer {
+  border-left: 2px solid var(--primary-color);
+}
+
+/* steps__card container */
+.steps__card {
+  position: relative;
+  margin: 0 0 20px 20px;
+  padding: 10px;
+  box-shadow: var(--box-shadow);
+
+  border-radius: 8px;
+  max-width: 400px;
+}
+
+/* steps__information about the timeline */
+.steps__info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* steps__title of the steps__card */
+.steps__text {
+  position: relative;
+  text-align: left;
+}
+
+/* Timeline dot  */
+.steps__text::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 999px;
+  left: -39px;
+  border: 3px solid var(--primary-color);
+}

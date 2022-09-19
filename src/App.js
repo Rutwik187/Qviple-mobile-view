@@ -11,6 +11,7 @@ import AboutUs from './components/about-us/AboutUs';
 import DownloadApp from './components/download-app/DownloadApp';
 import OurTeam from './components/our-team/OurTeam';
 import Testimonials from './components/testimonilas/Testimonials';
+import Accordion from './components/accordion/Accordion';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <DownloadApp />
       <OurTeam />
       <Testimonials />
+      <Accordion />
     </div>
   );
 }

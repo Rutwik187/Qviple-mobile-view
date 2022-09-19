@@ -13,6 +13,7 @@
 }
 .title-white {
   color: white;
+  margin: 10px;
 }
 .sub-title {
   font-family: var(--font-family);
