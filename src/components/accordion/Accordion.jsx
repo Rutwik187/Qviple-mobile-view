@@ -16,6 +16,90 @@ const Accordion = () => {
     setClicked(index);
   };
 
+  const instituteAsStaff = [
+    {
+      id: "step1",
+      text: "Go to Qviple.com",
+    },
+    {
+      id: "step2",
+      text: "Create new account / log in to your account(If already have an account)",
+    },
+    {
+      id: "step3",
+      text: "Search your institute",
+    },
+    {
+      id: "step4",
+      text: "View Institute Profile",
+    },
+    {
+      id: "step5",
+      text: "Click on Join/Apply button",
+    },
+    {
+      id: "step6",
+      text: "Click on Join (For existing members)",
+    },
+    {
+      id: "step7",
+      text: "Click on join as staff",
+    },
+    {
+      id: "step8",
+      text: "Enter institute code provided by institutes",
+    },
+    {
+      id: "step9",
+      text: "Fill joining form",
+    },
+    {
+      id: "step10",
+      text: "Wait for approval from institute (See status in Members Tab next to Home)",
+    },
+  ];
+  const instituteAsStudent = [
+    {
+      id: "step1",
+      text: "Go to Qviple.com",
+    },
+    {
+      id: "step2",
+      text: "Create new account / log in to your account(If already have an account)",
+    },
+    {
+      id: "step3",
+      text: "Search your institute",
+    },
+    {
+      id: "step4",
+      text: "View Institute Profile",
+    },
+    {
+      id: "step5",
+      text: "Click on Join/Apply button",
+    },
+    {
+      id: "step6",
+      text: "Click on Join (For existing members)",
+    },
+    {
+      id: "step7",
+      text: "Click on join as student",
+    },
+    {
+      id: "step8",
+      text: "Enter class code provided by institutes",
+    },
+    {
+      id: "step9",
+      text: "Fill joining form",
+    },
+    {
+      id: "step10",
+      text: "Wait for approval from institute (See status in Members Tab next to Home)",
+    },
+  ];
   const AccordionData = [
     {
       id: "question_1",
@@ -26,13 +110,12 @@ const Accordion = () => {
     {
       id: "question_2",
       question: "How to join institute as staff ?",
-      answer: <Steps />,
+      answer: <Steps details={instituteAsStaff} />,
     },
     {
       id: "question_3",
-      question: "What is experience level of the professional?",
-      answer:
-        "They are highly skilled and particular about their professional. They have a minimum of 3 years of experience.",
+      question: "How to join institute as student ?",
+      answer: <Steps details={instituteAsStudent} />,
     },
   ];
 

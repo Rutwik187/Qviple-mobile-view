@@ -12,10 +12,15 @@ import DownloadApp from './components/download-app/DownloadApp';
 import OurTeam from './components/our-team/OurTeam';
 import Testimonials from './components/testimonilas/Testimonials';
 import Accordion from './components/accordion/Accordion';
+import ContactUs from './components/contact-us/ContactUs';
+import { Footer } from './components/footer/footer';
+import { Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div className='mobile-view'>
+
+
       <Navbar />
       <Hero />
       <AboutProduct />
@@ -26,7 +31,13 @@ function App() {
       <OurTeam />
       <Testimonials />
       <Accordion />
-    </div>
+      <ContactUs />
+      <Footer />
+
+      <Routes>
+      </Routes>
+
+    </div >
   );
 }
 

@@ -58,6 +58,8 @@ nav a {
 .navbar__icons__hamburger .responsive_nav {
   width: 100%;
   transform: none;
+  background-color: white;
+  z-index: 10;
 }
 .nav-hamburger-btn {
   background: transparent;
